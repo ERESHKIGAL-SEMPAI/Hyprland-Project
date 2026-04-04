@@ -10,7 +10,7 @@ This project will be divided into X parts... The parts are as follows :
 
 **Part 1 (Short Part):** Customizing Arch Linux ;
 
-**Part 2 (Short Part):** Installing all packages required for Hyprland ;
+**Part 2 (Short part and updated regularly):** Installing all packages required for Hyprland ;
 
 **Part 3 (Long Part):** Configuring and customizing Hyprland ;
 
