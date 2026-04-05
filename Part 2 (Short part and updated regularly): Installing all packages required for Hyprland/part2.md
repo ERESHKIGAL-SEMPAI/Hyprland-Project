@@ -14,13 +14,6 @@ nmcli radio wifi on # wifi device up
 nmcli device wifi list # List Wi-Fi connections
 nmcli device wifi connect "SSID" password "mdp" # connects to the network
 ```
-## 
-
-
-
-
-
-
 
 ## Fish, Fastfetch and nano
 - [Fish](https://fishshell.com/) (Friendly Interactive SHell) is an alternative shell to Bash or Zsh. Advantage: Smart autocomplete as soon as you start typing (no setup required).
@@ -32,6 +25,9 @@ spellchecking, UTF-8 encoding, and more.
 ```bash
 $ sudo pacman -Syu # Update and upgrade System (Debian equivalent: apt update && apt upgrade)
 $ sudo pacman -S fastfetch fish nano
+$ chsh -S /usr/bin/fish # change of interpreter for fish
+$ sudo chsh -S /usr/bin/fish root # change of interpreter for fish
+$ sudo nano /etc/fish/config.fish # Uncomment and add the `fastfetch` argument to line 9 of the file
 ```
 
 # Work in Progress
