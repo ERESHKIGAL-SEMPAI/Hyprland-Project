@@ -22,3 +22,5 @@ nmcli device wifi connect "SSID" password "mdp" # connects to the network
 $ sudo pacman -Syu # Update and upgrade System (Debian equivalent: apt update && apt upgrade)
 $ sudo pacman -S fastfetch fish
 ```
+
+# Work in Progress
