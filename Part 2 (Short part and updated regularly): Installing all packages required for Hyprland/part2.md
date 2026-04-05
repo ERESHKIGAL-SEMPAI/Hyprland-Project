@@ -9,10 +9,10 @@ we'll install them as we go along
 ## Internet (Network manager service)
 From the start, there's no internet connection. That's normal because we're using NM (Network Manager), which has the same functionality as iwd but is a bit more complicated to configure.
 ```bash
-nmcli general status # display a physical and radio connection
-nmcli radio wifi on # wifi device up
-nmcli device wifi list # List Wi-Fi connections
-nmcli device wifi connect "SSID" password "mdp" # connects to the network
+$ nmcli general status # display a physical and radio connection
+$ nmcli radio wifi on # wifi device up
+$ nmcli device wifi list # List Wi-Fi connections
+$ nmcli device wifi connect "SSID" password "mdp" # connects to the network
 ```
 
 ## Fish, Fastfetch and nano
