@@ -16,4 +16,5 @@ To get started, we’ll need the following items:
 First, please download the [Rufus](https://rufus.ie/), 
 which we will use to format the USB drive and install the ISO file on it. Next, 
 please download the latest version of [Arch Linux](https://archlinux.org/) (This will be an ISO file.). 
-Finally, open Rufus and use the settings shown in the screenshot: ![alt](1ImagePart1.png)
+Finally, open Rufus and use the settings shown in the screenshot : ![alt](1ImagePart1.png)
+
