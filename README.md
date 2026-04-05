@@ -24,3 +24,4 @@ Project in progress
 - [Yay repository](https://github.com/jguer/yay)
 - [Paru repository](https://github.com/Morganamilo/paru)
 - [Arch Linux](https://archlinux.org/)
+- [Rufus](https://rufus.ie/)
