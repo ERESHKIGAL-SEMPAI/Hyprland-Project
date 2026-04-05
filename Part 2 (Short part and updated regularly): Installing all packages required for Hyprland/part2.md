@@ -14,13 +14,24 @@ nmcli radio wifi on # wifi device up
 nmcli device wifi list # List Wi-Fi connections
 nmcli device wifi connect "SSID" password "mdp" # connects to the network
 ```
+## 
 
-## Fish and Fastfetch
-[Fish](https://fishshell.com/) (Friendly Interactive SHell) is an alternative shell to Bash or Zsh. Advantage: Smart autocomplete as soon as you start typing (no setup required).
-[Fastfetch](https://github.com/fastfetch-cli/fastfetch) is a tool that displays information about your system in the terminal at startup (or on demand). It is more modern than [neofetch](https://github.com/dylanaraps/neofetch). Installation and setup are simple : 
+
+
+
+
+
+
+## Fish, Fastfetch and nano
+- [Fish](https://fishshell.com/) (Friendly Interactive SHell) is an alternative shell to Bash or Zsh. Advantage: Smart autocomplete as soon as you start typing (no setup required).
+- [Fastfetch](https://github.com/fastfetch-cli/fastfetch) is a tool that displays information about your system in the terminal at startup (or on demand). It is more modern than [neofetch](https://github.com/dylanaraps/neofetch). Installation and setup are simple : 
+- [nano](https://linuxize.com/post/how-to-use-nano-text-editor) is an easy-to-use command line text editor for Unix and Linux operating systems.
+It includes all the basic functionality you expect from a regular text editor, 
+like syntax highlighting, multiple buffers, search and replace with regular expression support,
+spellchecking, UTF-8 encoding, and more.
 ```bash
 $ sudo pacman -Syu # Update and upgrade System (Debian equivalent: apt update && apt upgrade)
-$ sudo pacman -S fastfetch fish
+$ sudo pacman -S fastfetch fish nano
 ```
 
 # Work in Progress
