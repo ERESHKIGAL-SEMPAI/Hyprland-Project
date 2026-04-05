@@ -29,5 +29,7 @@ Once you’ve done that, save the settings and select your USB drive, which shou
 Once you have booted from the USB drive, you will have two options: 
 - Arch Linux install medium (x86_64, UEFI/BIOS)
 - Arch Linux install medium (x86_64, UEFI/BIOS) with speech
+
 Please select the **first option**
-**Note: Depending on your computer, you will have either BIOS or UEFI. The menus are different (here is an example of a menu)![alt](EX1.png)
+
+**Note: Depending on your computer, you will have either BIOS or UEFI. The menus are different (here is an example of a menu)**![alt](EX1.png)
