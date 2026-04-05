@@ -99,8 +99,6 @@ $ archinstall # démarre le programme d'installation
 
 **Note : A sequence of 6 asterisks indicates the user's choice**
 
-Once you've made the settings, click the “Install” line and finally, you can click “Reboot system,” which will mark the end of this part
+Once you've made the settings, click the “Install” line and finally, you can click “Reboot system,” which will mark the end of this section
 
-
-
-# End Part
+# End section
