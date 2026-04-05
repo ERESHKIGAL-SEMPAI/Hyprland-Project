@@ -30,25 +30,25 @@ $ nmcli connection modify "ma-connexion"
    ipv4.gateway "192.168.1.1"
    ipv4.dns "1.1.1.1,8.8.8.8"
 
-nmcli connection up "myconnection"
+$ nmcli connection up "myconnection"
 ```
 
 ### Enable / Disable a connection
 ```bash
-nmcli connection up "myconnection"
-nmcli connection down "myconnection"
-nmcli device disconnect eth0
+$ nmcli connection up "myconnection"
+$ nmcli connection down "myconnection"
+$ nmcli device disconnect eth0
 ```
 
 ## Interactive Interface : nmtui
 ```bash
-nmtui # It allows you to connect, modify, or delete connections via a simple ncurses interface.
+$ nmtui # It allows you to connect, modify, or delete connections via a simple ncurses interface.
 ```
 
 ## Troubleshooting
 ```bash
-systemctl status NetworkManager          # check the service
-journalctl -u NetworkManager -f          # real-time logs
-nmcli device show eth0                   # interface details
-ping -c 3 1.1.1.1                        # test connectivity
+$ systemctl status NetworkManager          # check the service
+$ journalctl -u NetworkManager -f          # real-time logs
+$ nmcli device show eth0                   # interface details
+$ ping -c 3 1.1.1.1                        # test connectivity
 ```
