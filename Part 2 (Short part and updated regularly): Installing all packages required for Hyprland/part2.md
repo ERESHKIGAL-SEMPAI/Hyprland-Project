@@ -41,6 +41,24 @@ $ sudo pacman -S sddm waybar pipewire pipewire-pulse kitty hyprcursor hypre hypr
 $ systemctl enable sddm && reboot
 ```
 
+## AUR Helper Installation
+Install Paru and Yay as follows : 
+### yay
+```bash
+sudo pacman -S --needed git base-devel
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+```
+
+### paru
+```bash
+sudo pacman -S --needed git base-devel
+git clone https://aur.archlinux.org/paru.git
+cd paru
+makepkg -si
+```
+
 ## Final
 After the system restarts, log in to your account and follow the instructions in the pop-up window; it will guide you through how Hyprland works. 
 The most important part is where it lists all the required and optional packages—make sure everything is marked in green. This concludes Section Two.
