@@ -30,4 +30,19 @@ $ sudo chsh -S /usr/bin/fish root # change of interpreter for fish
 $ sudo nano /etc/fish/config.fish # Uncomment and add the `fastfetch` argument to line 9 of the file
 ```
 
-# Work in Progress
+## Hyprland and system Essential Package
+The installation will be performed using the following packages
+```bash
+$ sudo pacman -S sddm waybar pipewire pipewire-pulse kitty hyprcursor hypre hyprgraphics hypridle hyprland hyprland-guiutils hyprland-protocols hyprland-qt-support hyprlang hyprlauncher hyprlock hyprpaper hyprpicker hyprpolkitagent hyprpwcenter hyprshot hyprsunset hyprtoolkit hyprutils hyprwayland-scanner hyprwire qt5-wayland qt6-wayland xdg-desktop-portal-hyprland xdg-user-dirs xdg-utils htop thunar dunst intel-media-driver libva-intel-driver mesa vulkan-intel xorg-server xorg-xinit
+```
+
+## Enabling the SDDM login screen and accessing Hyprland
+```bash
+$ systemctl enable sddm && reboot
+```
+
+## Final
+After the system restarts, log in to your account and follow the instructions in the pop-up window; it will guide you through how Hyprland works. 
+The most important part is where it lists all the required and optional packages—make sure everything is marked in green. This concludes Section Two.
+
+# End section
