@@ -33,7 +33,7 @@ $ sudo nano /etc/fish/config.fish # Uncomment and add the `fastfetch` argument t
 ## Hyprland and system Essential Package
 The installation will be performed using the following packages
 ```bash
-$ sudo pacman -S sddm hyprcursor hyprgraphics hypridle hyprland hyprland-guiutils hyprland-protocols hyprland-qt-support hyprlang hyprlauncher hyprlock hyprpaper hyprpolkitagent hyprpwcenter hyprshot hyprsunset hyprtoolkit hyprutils hyprwayland-scanner hyprwire nwg-displays nwg-dock-hyprland nwg-panel xdg-desktop-portal-hyprland xdg-user-dirs kitty dunst thunar pipewire waybar intel-media-driver libva-intel-driver mesa vulkan-intel uwsm qt5-wayland qt6-wayland
+$ sudo pacman -S sddm hyprcursor hyprgraphics hypridle hyprland hyprland-guiutils hyprland-protocols hyprland-qt-support hyprlang hyprlauncher hyprpicker hyprlock hyprpaper hyprpolkitagent hyprpwcenter hyprshot hyprsunset hyprtoolkit hyprutils hyprwayland-scanner hyprwire nwg-displays nwg-dock-hyprland nwg-panel xdg-desktop-portal-hyprland xdg-user-dirs kitty dunst thunar pipewire waybar intel-media-driver libva-intel-driver mesa vulkan-intel uwsm qt5-wayland qt6-wayland
 ```
 
 ## Enabling the SDDM login screen and accessing Hyprland
