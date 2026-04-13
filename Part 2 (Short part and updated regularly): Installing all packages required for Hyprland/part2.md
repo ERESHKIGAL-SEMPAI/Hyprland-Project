@@ -16,33 +16,41 @@ $ nmcli device wifi connect "SSID" password "mdp" # connects to the network
 ```
 
 ## Fish, Fastfetch and nano
-- [Fish](https://fishshell.com/) (Friendly Interactive SHell) is an alternative shell to Bash or Zsh. Advantage: Smart autocomplete as soon as you start typing (no setup required).
-- [Fastfetch](https://github.com/fastfetch-cli/fastfetch) is a tool that displays information about your system in the terminal at startup (or on demand). It is more modern than [neofetch](https://github.com/dylanaraps/neofetch). Installation and setup are simple : 
-- [nano](https://linuxize.com/post/how-to-use-nano-text-editor) is an easy-to-use command line text editor for Unix and Linux operating systems.
-It includes all the basic functionality you expect from a regular text editor, 
-like syntax highlighting, multiple buffers, search and replace with regular expression support,
-spellchecking, UTF-8 encoding, and more.
+
 ```bash
-$ sudo pacman -Syu # Update and upgrade System (Debian equivalent: apt update && apt upgrade)
-$ sudo pacman -S fastfetch fish nano
-$ chsh -S /usr/bin/fish # change of interpreter for fish
-$ sudo chsh -S /usr/bin/fish root # change of interpreter for fish
-$ sudo nano /etc/fish/config.fish # Uncomment and add the `fastfetch` argument to line 9 of the file
+$ sudo pacman -Syu
+$ sudo pacman -S fastfetch fish neovim
+$ chsh -S /usr/bin/fish
+$ sudo chsh -S /usr/bin/fish root
+
+$ sudo nvim /etc/fish/config.fish # Uncomment and add the `fastfetch` argument to line 9 of the file
 ```
 
 ## Hyprland and system Essential Package
 The installation will be performed using the following packages
 ```bash
-$ sudo pacman -S sddm hyprcursor hyprgraphics hypridle hyprland hyprland-guiutils hyprland-protocols hyprland-qt-support hyprlang hyprlauncher hyprpicker hyprlock hyprpaper hyprpolkitagent hyprpwcenter hyprshot hyprsunset hyprtoolkit hyprutils hyprwayland-scanner hyprwire nwg-displays nwg-dock-hyprland nwg-panel xdg-desktop-portal-hyprland xdg-user-dirs kitty dunst thunar pipewire waybar intel-media-driver libva-intel-driver mesa vulkan-intel uwsm qt5-wayland qt6-wayland
+$ sudo pacman -S hyprland kitty sddm noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra
 ```
 
 ## Enabling the SDDM login screen and accessing Hyprland
 ```bash
-$ systemctl enable sddm && reboot
+$ systemctl enable sddm && hyprland
+```
+
+```bash
+// after login
+$ sudo pacman -S hyprpolkitagent kitty hyprpaper dunst hyprlauncher yazi pipewire xdg-desktop-portal-hyprland waybar wl-clipboard 
+
+// graphics & pilot
+$ sudo pacman -S intel-media-driver libva-intel-driver mesa vulkan-intel qt5-wayland qt6-wayland
+
+// plus
+$ sudo pacman -S zathura mpv imv bat fd ripgrep p7zip
 ```
 
 ## AUR Helper Installation
-Install Paru and Yay as follows : 
+Install Paru and Yay as follows :
+
 ### yay
 ```bash
 sudo pacman -S --needed git base-devel
